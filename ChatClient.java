@@ -55,7 +55,7 @@ public class ChatClient extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JPopupMenu popupMenu = new JPopupMenu();
-                String[] emojis = { "\uD83D\uDE00", "\uD83D\uDE01", "\uD83D\uDE02", "\uD83D\uDE03", "\uD83D\uDE04", "\uD83D\uDE05" ,"😒",""}; 
+                String[] emojis = { "\uD83D\uDE00", "\uD83D\uDE01", "\uD83D\uDE02", "\uD83D\uDE03", "\uD83D\uDE04", "\uD83D\uDE05" ,"😒"}; 
                 for (String emoji : emojis) {
                     JMenuItem menuItem = new JMenuItem(emoji);
                     menuItem.addActionListener(new ActionListener() {
